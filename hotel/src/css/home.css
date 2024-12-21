@@ -1,0 +1,23 @@
+.pagination-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+  }
+  
+  .pagination-button {
+    min-width: 40px;
+    height: 40px;
+  }
+  
+  .item {
+    background-color: var(--background-color, #fff); /* Dark mode logic handled dynamically */
+    font-family: var(--font-family, Arial, sans-serif); /* Fallback font if theme.typography.body2 isn't set */
+    padding: 16px; /* Adjust spacing as needed */
+    text-align: center;
+    color: var(--text-color, #333); /* Default text color */
+    position: relative;
+    overflow: hidden;
+    height: 300px; /* Adjust height as needed */
+  }
